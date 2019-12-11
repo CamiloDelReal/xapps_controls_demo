@@ -146,14 +146,14 @@ DISTFILES += \
     $$PWD/qml/pages/basic/ToolTipBasicPage.qml \
     $$PWD/qml/pages/basic/TumblerBasicPage.qml \
     $$PWD/qml/pages/extended/ButtonedPage.qml \
-    $$PWD/qml/pages/extended/CarouselExtendedPage.qml \
-    $$PWD/qml/pages/extended/ChipExtendedPage.qml \
-    $$PWD/qml/pages/extended/DelegateExtendedPage.qml \
-    $$PWD/qml/pages/extended/DialogExtendedPage.qml \
-    $$PWD/qml/pages/extended/FormTextInputExtendedPage.qml \
-    $$PWD/qml/pages/extended/ImageViewExtendedPage.qml \
-    $$PWD/qml/pages/extended/LabelExtendedPage.qml \
-    $$PWD/qml/pages/extended/NotificationExtendedPage.qml \
+    $$PWD/qml/pages/extended/CarouselPage.qml \
+    $$PWD/qml/pages/extended/ChipPage.qml \
+    $$PWD/qml/pages/extended/DelegatePage.qml \
+    $$PWD/qml/pages/extended/DialogPage.qml \
+    $$PWD/qml/pages/extended/FormTextInputPage.qml \
+    $$PWD/qml/pages/extended/ImageViewPage.qml \
+    $$PWD/qml/pages/extended/LabelPage.qml \
+    $$PWD/qml/pages/extended/NotificationPage.qml \
     $$PWD/qml/pages/extended/ParallaxPage.qml \
     $$PWD/qml/pages/extended/ScrollingBehaviorSingleToolbarPage.qml \
     $$PWD/qml/pages/extended/ScrollingBehaviorMultipleToolbarPage.qml \

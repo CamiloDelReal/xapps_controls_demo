@@ -40,7 +40,7 @@ XPage {
 
         onFinish: {
             appRoot.onBoardingVisible = false
-            appNavController.gotoView(appRoot.labelExtendedPageIndex)
+            appNavController.gotoView(appRoot.labelPageIndex)
         }
     }
 }

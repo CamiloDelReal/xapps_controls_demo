@@ -88,14 +88,14 @@
         <file>qml/pages/basic/ToolTipBasicPage.qml</file>
         <file>qml/pages/basic/StackViewBasicPage.qml</file>
         <file>qml/pages/basic/DialogBasicPage.qml</file>
-        <file>qml/pages/extended/DelegateExtendedPage.qml</file>
-        <file>qml/pages/extended/LabelExtendedPage.qml</file>
-        <file>qml/pages/extended/DialogExtendedPage.qml</file>
-        <file>qml/pages/extended/NotificationExtendedPage.qml</file>
+        <file>qml/pages/extended/DelegatePage.qml</file>
+        <file>qml/pages/extended/LabelPage.qml</file>
+        <file>qml/pages/extended/DialogPage.qml</file>
+        <file>qml/pages/extended/NotificationPage.qml</file>
         <file>qml/pages/demos/ImageDashboardPage1.qml</file>
         <file>qml/custom/PictureFooter1.qml</file>
-        <file>qml/pages/extended/FormTextInputExtendedPage.qml</file>
-        <file>qml/pages/extended/CarouselExtendedPage.qml</file>
+        <file>qml/pages/extended/FormTextInputPage.qml</file>
+        <file>qml/pages/extended/CarouselPage.qml</file>
         <file>qml/pages/demos/GmailInboxPage1.qml</file>
         <file>qml/pages/demos/SolidExplorerFileViewerPage.qml</file>
         <file>img/avatars/avatar_1.svg</file>
@@ -124,9 +124,9 @@
         <file>img/banners/banner_2.jpg</file>
         <file>img/banners/banner_3.jpg</file>
         <file>qml/pages/extended/ParallaxPage.qml</file>
-        <file>qml/pages/extended/ImageViewExtendedPage.qml</file>
+        <file>qml/pages/extended/ImageViewPage.qml</file>
         <file>qml/pages/extended/ScrollingBehaviorMultipleToolbarPage.qml</file>
         <file>qml/pages/extended/ScrollingBehaviorSingleToolbarPage.qml</file>
-        <file>qml/pages/extended/ChipExtendedPage.qml</file>
+        <file>qml/pages/extended/ChipPage.qml</file>
     </qresource>
 </RCC>
