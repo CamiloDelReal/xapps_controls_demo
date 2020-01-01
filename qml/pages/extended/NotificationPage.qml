@@ -40,12 +40,12 @@ XTitledPage {
             Button {
                 Layout.alignment: Qt.AlignHCenter
                 text: qsTr("Toast")
-                onClicked: toastCtrl.show(null, qsTr("This is a toast"))
+                onClicked: toastCtrl.showText(qsTr("This is a toast"))
             }
             Button {
                 Layout.alignment: Qt.AlignHCenter
                 text: qsTr("Toast with icon")
-                onClicked: toastCtrl.show("qrc:/img/icons/radioactive.svg", qsTr("This is a toast with icon"))
+                onClicked: toastCtrl.showIconWithText("qrc:/img/icons/radioactive.svg", qsTr("This is a toast with icon"))
             }
 
             XTitleLabel {

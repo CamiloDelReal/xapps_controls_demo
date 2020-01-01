@@ -3,6 +3,7 @@ import QtQuick.Controls 2.12
 import QtQuick.Controls.impl 2.12
 import QtQuick.Controls.Material 2.12
 import QtQuick.Layouts 1.12
+import QtGraphicalEffects 1.12
 
 import "qrc:/qml"
 
@@ -17,7 +18,6 @@ XTitledPage {
         onTriggered: page.back()
     }
     titlebar.title: qsTr("About")
-    //scrollingBehavior.flickable: aboutPane
 
     function back() {
         appNavController.returnFromView(appRoot.aboutPageIndex)
@@ -29,10 +29,15 @@ XTitledPage {
         anchors.fill: parent
         ScrollIndicator.vertical: ScrollIndicator {}
 
-        appLogo: "qrc:/img/app/logo_foreground.svg"
-        appLogoBackgroundColor: page.Material.primary
-        appLogoBackgroundRadius: 6
-        appLogoBackgroundPadding: 10
+        appLogo: "qrc:/img/app/logo.svg"
+        appLogoLayer.enabled: page.Material.theme === Material.Light
+        appLogoLayer.effect: DropShadow {
+            horizontalOffset: 0
+            verticalOffset: 0
+            radius: 2
+            samples: 5
+            color: "#50000000"
+        }
         appName: qsTr("XApps Controls Demo")
         appVersion: ApplicationSettingsObj.version
         appSlogan: qsTr("A simple demo application for testing and document \"X Libraries\"")
@@ -59,12 +64,15 @@ XTitledPage {
                             source: "qrc:/img/app/logo.svg"
                             sourceSize.width: 38
                             sourceSize.height: 38
+                            layer.enabled: page.Material.theme === Material.Light
+                            layer.effect: DropShadow {
+                                horizontalOffset: 0
+                                verticalOffset: 0
+                                radius: 2
+                                samples: 5
+                                color: "#50000000"
+                            }
                         }
-                    },
-                    XAction {
-                        text: qsTr("X ORM")
-                        tooltip: "URL"
-                        onTriggered: console.log("Open XApps Material Controls URL")
                     }
                 ]
             },

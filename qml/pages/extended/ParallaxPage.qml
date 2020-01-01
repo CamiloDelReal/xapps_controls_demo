@@ -63,7 +63,9 @@ XParallaxPage {
             XBodyLabel1 {
                 Layout.fillWidth: true
                 wrapMode: Label.Wrap
-                text: qsTr("Custom XPage")
+                text: qsTr("Custom XPage with a title bar providing title, subtitle, primary action "
+                           + "button, actions menu and background with parallax effect. Also provide "
+                           + "inline scrolling behavior for flickable content")
             }
 
             Row {

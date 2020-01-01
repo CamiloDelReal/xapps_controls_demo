@@ -79,6 +79,7 @@ DISTFILES += \
     $$PWD/img/icons/plus.svg \
     $$PWD/img/icons/puzzle.svg \
     $$PWD/img/icons/radioactive.svg \
+    $$PWD/img/icons/reload.svg \
     $$PWD/img/icons/settings.svg \
     $$PWD/img/icons/snowflake.svg \
     $$PWD/img/icons/star.svg \
@@ -88,14 +89,50 @@ DISTFILES += \
     $$PWD/img/icons/truck.svg \
     $$PWD/img/icons/tune.svg \
     $$PWD/img/avatars/avatar_1.svg \
+    $$PWD/img/avatars/avatar_1.png \
+    $$PWD/img/avatars/avatar_1@2x.png \
+    $$PWD/img/avatars/avatar_1@3x.png \
+    $$PWD/img/avatars/avatar_1@4x.png \
     $$PWD/img/avatars/avatar_2.svg \
+    $$PWD/img/avatars/avatar_2.png \
+    $$PWD/img/avatars/avatar_2@2x.png \
+    $$PWD/img/avatars/avatar_2@3x.png \
+    $$PWD/img/avatars/avatar_2@4x.png \
     $$PWD/img/avatars/avatar_3.svg \
+    $$PWD/img/avatars/avatar_3.png \
+    $$PWD/img/avatars/avatar_3@2x.png \
+    $$PWD/img/avatars/avatar_3@3x.png \
+    $$PWD/img/avatars/avatar_3@4x.png \
     $$PWD/img/avatars/avatar_4.svg \
+    $$PWD/img/avatars/avatar_4.png \
+    $$PWD/img/avatars/avatar_4@2x.png \
+    $$PWD/img/avatars/avatar_4@3x.png \
+    $$PWD/img/avatars/avatar_4@4x.png \
     $$PWD/img/avatars/avatar_5.svg \
+    $$PWD/img/avatars/avatar_5.png \
+    $$PWD/img/avatars/avatar_5@2x.png \
+    $$PWD/img/avatars/avatar_5@3x.png \
+    $$PWD/img/avatars/avatar_5@4x.png \
     $$PWD/img/avatars/avatar_6.svg \
+    $$PWD/img/avatars/avatar_6.png \
+    $$PWD/img/avatars/avatar_6@2x.png \
+    $$PWD/img/avatars/avatar_6@3x.png \
+    $$PWD/img/avatars/avatar_6@4x.png \
     $$PWD/img/avatars/avatar_7.svg \
+    $$PWD/img/avatars/avatar_7.png \
+    $$PWD/img/avatars/avatar_7@2x.png \
+    $$PWD/img/avatars/avatar_7@3x.png \
+    $$PWD/img/avatars/avatar_7@4x.png \
     $$PWD/img/avatars/avatar_8.svg \
+    $$PWD/img/avatars/avatar_8.png \
+    $$PWD/img/avatars/avatar_8@2x.png \
+    $$PWD/img/avatars/avatar_8@3x.png \
+    $$PWD/img/avatars/avatar_8@4x.png \
     $$PWD/img/avatars/avatar_9.svg \
+    $$PWD/img/avatars/avatar_9.png \
+    $$PWD/img/avatars/avatar_9@2x.png \
+    $$PWD/img/avatars/avatar_9@3x.png \
+    $$PWD/img/avatars/avatar_9@4x.png \
     $$PWD/img/banners/banner_1.jpg \
     $$PWD/img/banners/banner_2.jpg \
     $$PWD/img/banners/banner_3.jpg \
@@ -146,14 +183,14 @@ DISTFILES += \
     $$PWD/qml/pages/basic/ToolTipBasicPage.qml \
     $$PWD/qml/pages/basic/TumblerBasicPage.qml \
     $$PWD/qml/pages/extended/ButtonedPage.qml \
-    $$PWD/qml/pages/extended/CarouselExtendedPage.qml \
-    $$PWD/qml/pages/extended/ChipExtendedPage.qml \
-    $$PWD/qml/pages/extended/DelegateExtendedPage.qml \
-    $$PWD/qml/pages/extended/DialogExtendedPage.qml \
-    $$PWD/qml/pages/extended/FormTextInputExtendedPage.qml \
-    $$PWD/qml/pages/extended/ImageViewExtendedPage.qml \
-    $$PWD/qml/pages/extended/LabelExtendedPage.qml \
-    $$PWD/qml/pages/extended/NotificationExtendedPage.qml \
+    $$PWD/qml/pages/extended/CarouselPage.qml \
+    $$PWD/qml/pages/extended/ChipPage.qml \
+    $$PWD/qml/pages/extended/DelegatePage.qml \
+    $$PWD/qml/pages/extended/DialogPage.qml \
+    $$PWD/qml/pages/extended/FormTextInputPage.qml \
+    $$PWD/qml/pages/extended/ImageViewPage.qml \
+    $$PWD/qml/pages/extended/LabelPage.qml \
+    $$PWD/qml/pages/extended/NotificationPage.qml \
     $$PWD/qml/pages/extended/ParallaxPage.qml \
     $$PWD/qml/pages/extended/ScrollingBehaviorSingleToolbarPage.qml \
     $$PWD/qml/pages/extended/ScrollingBehaviorMultipleToolbarPage.qml \
@@ -169,8 +206,6 @@ DISTFILES += \
     $$PWD/qml/custom/GmailItem1.qml \
     $$PWD/qml/custom/SolidExplorerFileItem.qml \
     $$PWD/qml/custom/SolidExplorerNavItem.qml
-
-#    $$PWD/qml/pages/ChipsPage.qml \
 
 
 ##************  Android Configurations  ************************************************************

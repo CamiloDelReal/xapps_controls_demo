@@ -70,50 +70,50 @@ XApplication {
                 text: qsTr("Carousel")
                 category: qsTr("Extended Controls")
                 checkable: true
-                onTriggered: appNavController.gotoView(appRoot.carouselExtendedPageIndex)
+                onTriggered: appNavController.gotoView(appRoot.carouselPageIndex)
             },
             XAction {
                 text: qsTr("Chips")
                 category: qsTr("Extended Controls")
                 checkable: true
-                onTriggered: appNavController.gotoView(appRoot.chipsExtendedPageIndex)
+                onTriggered: appNavController.gotoView(appRoot.chipsPageIndex)
             },
             XAction {
                 text: qsTr("Delegates")
                 category: qsTr("Extended Controls")
                 checkable: true
-                onTriggered: appNavController.gotoView(appRoot.delegateExtendedPageIndex)
+                onTriggered: appNavController.gotoView(appRoot.delegatePageIndex)
             },
             XAction {
                 text: qsTr("Dialogs")
                 category: qsTr("Extended Controls")
                 checkable: true
-                onTriggered: appNavController.gotoView(appRoot.dialogExtendedPageIndex)
+                onTriggered: appNavController.gotoView(appRoot.dialogPageIndex)
             },
             XAction {
                 text: qsTr("Form Text Inputs")
                 category: qsTr("Extended Controls")
                 checkable: true
-                onTriggered: appNavController.gotoView(appRoot.formTextInputExtendedPageIndex)
+                onTriggered: appNavController.gotoView(appRoot.formTextInputPageIndex)
             },
             XAction {
                 text: qsTr("Image View")
                 category: qsTr("Extended Controls")
                 checkable: true
-                onTriggered: appNavController.gotoView(appRoot.imageViewExtendedPageIndex)
+                onTriggered: appNavController.gotoView(appRoot.imageViewPageIndex)
             },
             XAction {
                 text: qsTr("Labels")
                 category: qsTr("Extended Controls")
                 checkable: true
                 checked: true
-                onTriggered: appNavController.gotoView(appRoot.labelExtendedPageIndex)
+                onTriggered: appNavController.gotoView(appRoot.labelPageIndex)
             },
             XAction {
                 text: qsTr("Notifications")
                 category: qsTr("Extended Controls")
                 checkable: true
-                onTriggered: appNavController.gotoView(appRoot.notificationExtendedPageIndex)
+                onTriggered: appNavController.gotoView(appRoot.notificationPageIndex)
             },
             // Pages
             XAction {
@@ -393,71 +393,70 @@ XApplication {
     property int titledTabbedPageIndex:             31
     property int buttonedPageIndex:                 32
     property int titledButtonedPageIndex:           33
-    property int labelExtendedPageIndex:            34
-    property int delegateExtendedPageIndex:         35
-    property int dialogExtendedPageIndex:           36
-    property int notificationExtendedPageIndex:     37
+    property int labelPageIndex:                    34
+    property int delegatePageIndex:                 35
+    property int dialogPageIndex:                   36
+    property int notificationPageIndex:             37
     property int imageDashboardPage1Index:          38
-    property int formTextInputExtendedPageIndex:    39
-    property int carouselExtendedPageIndex:         40
+    property int formTextInputPageIndex:            39
+    property int carouselPageIndex:                 40
     property int gmailInboxPage1Index:              41
     property int solidExplorerFileViewerPageIndex:  42
     property int parallaxPageIndex:                 43
-    property int imageViewExtendedPageIndex:        44
+    property int imageViewPageIndex:                44
     property int scrollingBehaviorSingleToolbar:    45
     property int scrollingBehaviorMultipleToolbar:  46
-    property int chipsExtendedPageIndex:            47
+    property int chipsPageIndex:                    47
     //    property int cardsPageIndex:            13
     viewNavigationModel: [
-        { view: "pages/OnBoardingPage.qml",                     stacked: false },
-        { view: "pages/SettingsPage.qml",                       stacked: true },
-        { view: "pages/AboutPage.qml",                          stacked: true },
-        { view: "pages/basic/BusyIndicatorBasicPage.qml",       stacked: false },
-        { view: "pages/basic/ButtonBasicPage.qml",              stacked: false },
-        { view: "pages/basic/CheckBoxBasicPage.qml",            stacked: false },
-        { view: "pages/basic/RadioButtonBasicPage.qml",         stacked: false },
-        { view: "pages/basic/ComboBoxBasicPage.qml",            stacked: false },
-        { view: "pages/basic/DelayButtonBasicPage.qml",         stacked: false },
-        { view: "pages/basic/DialBasicPage.qml",                stacked: false },
-        { view: "pages/basic/DelegateBasicPage.qml",            stacked: false },
-        { view: "pages/basic/FrameBasicPage.qml",               stacked: false },
-        { view: "pages/basic/GroupBoxBasicPage.qml",            stacked: false },
-        { view: "pages/basic/PageIndicatorBasicPage.qml",       stacked: false },
-        { view: "pages/basic/ProgressBarBasicPage.qml",         stacked: false },
-        { view: "pages/basic/ScrollBarBasicPage.qml",           stacked: false },
-        { view: "pages/basic/ScrollIndicatorBasicPage.qml",     stacked: false },
-        { view: "pages/basic/RangeSliderBasicPage.qml",         stacked: false },
-        { view: "pages/basic/SliderBasicPage.qml",              stacked: false },
-        { view: "pages/basic/SpinBoxBasicPage.qml",             stacked: false },
-        { view: "pages/basic/SwipeViewBasicPage.qml",           stacked: false },
-        { view: "pages/basic/SwitchBasicPage.qml",              stacked: false },
-        { view: "pages/basic/TabBarBasicPage.qml",              stacked: false },
-        { view: "pages/basic/TextAreaBasicPage.qml",            stacked: false },
-        { view: "pages/basic/TextFieldBasicPage.qml",           stacked: false },
-        { view: "pages/basic/ToolTipBasicPage.qml",             stacked: false },
-        { view: "pages/basic/TumblerBasicPage.qml",             stacked: false },
-        { view: "pages/basic/StackViewBasicPage.qml",           stacked: false },
-        { view: "pages/basic/DialogBasicPage.qml",              stacked: false },
-        { view: "pages/extended/TitledPage.qml",                stacked: false },
-        { view: "pages/extended/TabbedPage.qml",                stacked: false },
-        { view: "pages/extended/TitledTabbedPage.qml",          stacked: false },
-        { view: "pages/extended/ButtonedPage.qml",              stacked: false },
-        { view: "pages/extended/TitledButtonedPage.qml",        stacked: false },
-        { view: "pages/extended/LabelExtendedPage.qml",         stacked: false },
-        { view: "pages/extended/DelegateExtendedPage.qml",      stacked: false },
-        { view: "pages/extended/DialogExtendedPage.qml",        stacked: false },
-        { view: "pages/extended/NotificationExtendedPage.qml",  stacked: false },
-        { view: "pages/demos/ImageDashboardPage1.qml",          stacked: false },
-        { view: "pages/extended/FormTextInputExtendedPage.qml", stacked: false },
-        { view: "pages/extended/CarouselExtendedPage.qml",      stacked: false },
-        { view: "pages/demos/GmailInboxPage1.qml",              stacked: false },
-        { view: "pages/demos/SolidExplorerFileViewerPage.qml",  stacked: false },
-        { view: "pages/extended/ParallaxPage.qml",              stacked: false },
-        { view: "pages/extended/ImageViewExtendedPage.qml",     stacked: false },
+        { view: "pages/OnBoardingPage.qml",                                 stacked: false },
+        { view: "pages/SettingsPage.qml",                                   stacked: true },
+        { view: "pages/AboutPage.qml",                                      stacked: true },
+        { view: "pages/basic/BusyIndicatorBasicPage.qml",                   stacked: false },
+        { view: "pages/basic/ButtonBasicPage.qml",                          stacked: false },
+        { view: "pages/basic/CheckBoxBasicPage.qml",                        stacked: false },
+        { view: "pages/basic/RadioButtonBasicPage.qml",                     stacked: false },
+        { view: "pages/basic/ComboBoxBasicPage.qml",                        stacked: false },
+        { view: "pages/basic/DelayButtonBasicPage.qml",                     stacked: false },
+        { view: "pages/basic/DialBasicPage.qml",                            stacked: false },
+        { view: "pages/basic/DelegateBasicPage.qml",                        stacked: false },
+        { view: "pages/basic/FrameBasicPage.qml",                           stacked: false },
+        { view: "pages/basic/GroupBoxBasicPage.qml",                        stacked: false },
+        { view: "pages/basic/PageIndicatorBasicPage.qml",                   stacked: false },
+        { view: "pages/basic/ProgressBarBasicPage.qml",                     stacked: false },
+        { view: "pages/basic/ScrollBarBasicPage.qml",                       stacked: false },
+        { view: "pages/basic/ScrollIndicatorBasicPage.qml",                 stacked: false },
+        { view: "pages/basic/RangeSliderBasicPage.qml",                     stacked: false },
+        { view: "pages/basic/SliderBasicPage.qml",                          stacked: false },
+        { view: "pages/basic/SpinBoxBasicPage.qml",                         stacked: false },
+        { view: "pages/basic/SwipeViewBasicPage.qml",                       stacked: false },
+        { view: "pages/basic/SwitchBasicPage.qml",                          stacked: false },
+        { view: "pages/basic/TabBarBasicPage.qml",                          stacked: false },
+        { view: "pages/basic/TextAreaBasicPage.qml",                        stacked: false },
+        { view: "pages/basic/TextFieldBasicPage.qml",                       stacked: false },
+        { view: "pages/basic/ToolTipBasicPage.qml",                         stacked: false },
+        { view: "pages/basic/TumblerBasicPage.qml",                         stacked: false },
+        { view: "pages/basic/StackViewBasicPage.qml",                       stacked: false },
+        { view: "pages/basic/DialogBasicPage.qml",                          stacked: false },
+        { view: "pages/extended/TitledPage.qml",                            stacked: false },
+        { view: "pages/extended/TabbedPage.qml",                            stacked: false },
+        { view: "pages/extended/TitledTabbedPage.qml",                      stacked: false },
+        { view: "pages/extended/ButtonedPage.qml",                          stacked: false },
+        { view: "pages/extended/TitledButtonedPage.qml",                    stacked: false },
+        { view: "pages/extended/LabelPage.qml",                             stacked: false },
+        { view: "pages/extended/DelegatePage.qml",                          stacked: false },
+        { view: "pages/extended/DialogPage.qml",                            stacked: false },
+        { view: "pages/extended/NotificationPage.qml",                      stacked: false },
+        { view: "pages/demos/ImageDashboardPage1.qml",                      stacked: false },
+        { view: "pages/extended/FormTextInputPage.qml",                     stacked: false },
+        { view: "pages/extended/CarouselPage.qml",                          stacked: false },
+        { view: "pages/demos/GmailInboxPage1.qml",                          stacked: false },
+        { view: "pages/demos/SolidExplorerFileViewerPage.qml",              stacked: false },
+        { view: "pages/extended/ParallaxPage.qml",                          stacked: false },
+        { view: "pages/extended/ImageViewPage.qml",                         stacked: false },
         { view: "pages/extended/ScrollingBehaviorSingleToolbarPage.qml",    stacked: false },
         { view: "pages/extended/ScrollingBehaviorMultipleToolbarPage.qml",  stacked: false },
-        { view: "pages/extended/ChipExtendedPage.qml",          stacked: false }
-        //        { view: "pages/CardsPage.qml",          stacked: false },
-        //        { view: "pages/ChipsPage.qml",          stacked: false }
+        { view: "pages/extended/ChipPage.qml",                              stacked: false }
+        //        { view: "pages/CardsPage.qml",          stacked: false }
     ]
 }
