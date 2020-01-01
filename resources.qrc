@@ -55,7 +55,6 @@
         <file>img/on_boarding/design.svg</file>
         <file>img/on_boarding/idea.svg</file>
         <file>img/app/flaticon_logo.svg</file>
-        <file>qml/pages/ChipsPage.qml</file>
         <file>qml/custom/SimpleTextPane.qml</file>
         <file>img/app/logo_foreground.svg</file>
         <file>qml/pages/basic/BusyIndicatorBasicPage.qml</file>
@@ -128,5 +127,42 @@
         <file>qml/pages/extended/ScrollingBehaviorMultipleToolbarPage.qml</file>
         <file>qml/pages/extended/ScrollingBehaviorSingleToolbarPage.qml</file>
         <file>qml/pages/extended/ChipPage.qml</file>
+        <file>img/icons/reload.svg</file>
+        <file>img/avatars/avatar_1.png</file>
+        <file>img/avatars/avatar_1@2x.png</file>
+        <file>img/avatars/avatar_1@3x.png</file>
+        <file>img/avatars/avatar_1@4x.png</file>
+        <file>img/avatars/avatar_2.png</file>
+        <file>img/avatars/avatar_2@2x.png</file>
+        <file>img/avatars/avatar_2@3x.png</file>
+        <file>img/avatars/avatar_2@4x.png</file>
+        <file>img/avatars/avatar_3.png</file>
+        <file>img/avatars/avatar_3@2x.png</file>
+        <file>img/avatars/avatar_3@3x.png</file>
+        <file>img/avatars/avatar_3@4x.png</file>
+        <file>img/avatars/avatar_4.png</file>
+        <file>img/avatars/avatar_4@2x.png</file>
+        <file>img/avatars/avatar_4@3x.png</file>
+        <file>img/avatars/avatar_4@4x.png</file>
+        <file>img/avatars/avatar_6.png</file>
+        <file>img/avatars/avatar_6@2x.png</file>
+        <file>img/avatars/avatar_6@3x.png</file>
+        <file>img/avatars/avatar_6@4x.png</file>
+        <file>img/avatars/avatar_7.png</file>
+        <file>img/avatars/avatar_7@2x.png</file>
+        <file>img/avatars/avatar_7@3x.png</file>
+        <file>img/avatars/avatar_7@4x.png</file>
+        <file>img/avatars/avatar_8.png</file>
+        <file>img/avatars/avatar_8@2x.png</file>
+        <file>img/avatars/avatar_8@3x.png</file>
+        <file>img/avatars/avatar_8@4x.png</file>
+        <file>img/avatars/avatar_9.png</file>
+        <file>img/avatars/avatar_9@2x.png</file>
+        <file>img/avatars/avatar_9@3x.png</file>
+        <file>img/avatars/avatar_9@4x.png</file>
+        <file>img/avatars/avatar_5.png</file>
+        <file>img/avatars/avatar_5@2x.png</file>
+        <file>img/avatars/avatar_5@3x.png</file>
+        <file>img/avatars/avatar_5@4x.png</file>
     </qresource>
 </RCC>

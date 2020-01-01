@@ -349,6 +349,12 @@ XApplication {
                 category: qsTr("Extended Controls")
                 checkable: true
                 onTriggered: appNavController.gotoView(appRoot.cardsPageIndex)
+            },
+            XAction {
+                text: qsTr("Chips")
+                category: qsTr("Extended Controls")
+                checkable: true
+                onTriggered: appNavController.gotoView(appRoot.chipsPageIndex)
             },*/
         ]
     }
@@ -451,6 +457,6 @@ XApplication {
         { view: "pages/extended/ScrollingBehaviorSingleToolbarPage.qml",    stacked: false },
         { view: "pages/extended/ScrollingBehaviorMultipleToolbarPage.qml",  stacked: false },
         { view: "pages/extended/ChipPage.qml",                              stacked: false }
-        //        { view: "pages/CardsPage.qml",          stacked: false },
+        //        { view: "pages/CardsPage.qml",          stacked: false }
     ]
 }
