@@ -7,15 +7,18 @@
 #endif
 
 #include "applicationmanager.hpp"
+#include <QDebug>
 
 int main(int argc, char *argv[])
 {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+    QGuiApplication::setHighDpiScaleFactorRoundingPolicy(Qt::HighDpiScaleFactorRoundingPolicy::PassThrough);
     QGuiApplication app(argc, argv);
 
     QQuickStyle::setStyle("Material");
 
     ApplicationManager applicationManager;
+
 #ifdef Q_MOBILE_PLATFORM
     applicationManager.systemCheats();
 #endif

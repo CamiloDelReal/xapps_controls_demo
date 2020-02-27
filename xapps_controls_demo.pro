@@ -1,6 +1,6 @@
 #************  Qt Configurations  *****************************************************************
 QT += qml quick quickcontrols2 svg xml
-CONFIG += c++11 qtquickcompiler
+CONFIG += c++11 #qtquickcompiler
 DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000
 
