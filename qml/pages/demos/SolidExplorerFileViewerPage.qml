@@ -1,6 +1,6 @@
-import QtQuick 2.14
-import QtQuick.Controls 2.14
-import QtQuick.Controls.Material 2.14
+import QtQuick
+import QtQuick.Controls
+import QtQuick.Controls.Material
 
 import "qrc:/qml"
 import "qrc:/qml/custom"
@@ -12,7 +12,7 @@ XTitledPage {
     Material.accent: Material.Amber
     Material.theme: Material.Light
 
-    statusBarHeight: ApplicationManagerObj.systemStatusBarSize
+    statusbarHeight: ApplicationManagerObj.systemStatusBarSize
 
     titlebar.primaryAction: XAction {
         text: qsTr("Open global drawer")

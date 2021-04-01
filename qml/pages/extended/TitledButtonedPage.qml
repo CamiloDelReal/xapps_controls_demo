@@ -1,12 +1,12 @@
-import QtQuick 2.14
-import QtQuick.Controls 2.14
+import QtQuick
+import QtQuick.Controls
 
 import "qrc:/qml"
 
 XTitledButtonedPage {
     id: page
 
-    statusBarHeight: ApplicationManagerObj.systemStatusBarSize
+    statusbarHeight: ApplicationManagerObj.systemStatusBarSize
 
     titlebar.primaryAction: XAction {
         text: qsTr("Open global drawer")

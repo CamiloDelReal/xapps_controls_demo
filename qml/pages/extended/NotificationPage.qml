@@ -1,13 +1,13 @@
-import QtQuick 2.14
-import QtQuick.Controls 2.14
-import QtQuick.Layouts 1.14
+import QtQuick
+import QtQuick.Controls
+import QtQuick.Layouts
 
 import "qrc:/qml"
 
 XTitledPage {
     id: page
 
-    statusBarHeight: ApplicationManagerObj.systemStatusBarSize
+    statusbarHeight: ApplicationManagerObj.systemStatusBarSize
 
     titlebar.primaryAction: XAction {
         text: qsTr("Open global drawer")

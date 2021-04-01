@@ -1,16 +1,16 @@
-import QtQuick 2.14
-import QtQuick.Controls 2.14
-import QtQuick.Controls.Material 2.14
-import QtQuick.Layouts 1.14
+import QtQuick
+import QtQuick.Controls
+import QtQuick.Controls.Material
+import QtQuick.Layouts
 
-import XApps.XMaterialControls 1.0
+import XApps.XMaterialControls
 
 import "qrc:/qml"
 
 XTitledPage {
     id: page
 
-    statusBarHeight: ApplicationManagerObj.systemStatusBarSize
+    statusbarHeight: ApplicationManagerObj.systemStatusBarSize
 
     contentView.padding: 12
 

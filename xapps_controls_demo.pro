@@ -1,5 +1,5 @@
 #************  Qt Configurations  *****************************************************************
-QT += qml quick quickcontrols2 svg xml
+QT += qml quick quickcontrols2 svg xml core5compat
 CONFIG += c++11 #qtquickcompiler
 DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000
@@ -9,8 +9,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 #************  X Modules  *************************************************************************
-include($$PWD/../../libraries/x_material_controls/x_material_controls.pri)
-include($$PWD/../../libraries/x_utils/x_utils.pri)
+include($$PWD/../x_material_controls/x_material_controls.pri)
+include($$PWD/../x_utils/x_utils.pri)
 
 
 #************  QML Configurations  ****************************************************************
@@ -33,12 +33,12 @@ INCLUDEPATH += \
 
 
 #************  Resources  *************************************************************************
-RESOURCES += \
-    $$PWD/resources.qrc
+#RESOURCES += \
+#    $$PWD/resources.qrc
 
 
 #************  Images Files  **********************************************************************
-DISTFILES += \
+RESOURCES += \
     $$PWD/img/app/icon_launcher.svg \
     $$PWD/img/app/logo.svg \
     $$PWD/img/app/logo_foreground.svg \
@@ -151,7 +151,7 @@ DISTFILES += \
 
 
 #************  QML Files  *************************************************************************
-DISTFILES += \
+RESOURCES += \
     $$PWD/qml/Main.qml \
     $$PWD/qml/pages/SplashPage.qml \
     $$PWD/qml/pages/OnBoardingPage.qml \

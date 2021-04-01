@@ -8,7 +8,7 @@ import "qrc:/qml"
 XTitledPage {
     id: page
 
-    statusBarHeight: ApplicationManagerObj.systemStatusBarSize
+    statusbarHeight: ApplicationManagerObj.systemStatusBarSize
 
     titlebar.primaryAction: XAction {
         text: qsTr("Open global drawer")

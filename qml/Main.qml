@@ -1,9 +1,9 @@
-import QtQuick 2.14
-import QtQuick.Controls 2.14
-import QtQuick.Controls.impl 2.14
-import QtQuick.Controls.Material 2.14
-import QtQuick.Layouts 1.14
-import QtQuick.Window 2.14
+import QtQuick
+import QtQuick.Controls
+import QtQuick.Controls.impl
+import QtQuick.Controls.Material
+import QtQuick.Layouts
+import QtQuick.Window
 
 import "qrc:/qml"
 import "qrc:/qml/pages"
@@ -24,7 +24,7 @@ XApplication {
     property bool sideBarNavEnabled: !onBoardingVisible && appNavController.depth === 1
 
     onAppNavControllerCreated: {
-        if(Qt.platform.os == "android" || Qt.platform.os == "ios") {
+        if(Qt.platform.os === "android" || Qt.platform.os === "ios") {
             ApplicationManagerObj.setUiReady(true)
         }
     }
@@ -40,7 +40,7 @@ XApplication {
         interactive: sideBarNavEnabled
         header: XSideBarHeader {
             title: appRoot.title
-            statusBarHeight: ApplicationManagerObj.systemStatusBarSize
+            statusbarHeight: ApplicationManagerObj.systemStatusBarSize
             backgroundImage: "qrc:/img/app/drawer_header.png"
             overflowIcon: "qrc:/img/icons/dots-vertical.svg"
             Material.theme: Material.Dark

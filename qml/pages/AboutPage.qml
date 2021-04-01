@@ -1,16 +1,16 @@
-import QtQuick 2.14
-import QtQuick.Controls 2.14
-import QtQuick.Controls.impl 2.14
-import QtQuick.Controls.Material 2.14
-import QtQuick.Layouts 1.14
-import QtGraphicalEffects 1.14
+import QtQuick
+import QtQuick.Controls
+import QtQuick.Controls.impl
+import QtQuick.Controls.Material
+import QtQuick.Controls.Material.impl
+import QtQuick.Layouts
 
 import "qrc:/qml"
 
 XTitledPage {
     id: page
 
-    statusBarHeight: ApplicationManagerObj.systemStatusBarSize
+    statusbarHeight: ApplicationManagerObj.systemStatusBarSize
 
     titlebar.primaryAction: XAction {
         text: qsTr("Go back")
@@ -31,12 +31,8 @@ XTitledPage {
 
         appLogo: "qrc:/img/app/logo.svg"
         appLogoLayer.enabled: page.Material.theme === Material.Light
-        appLogoLayer.effect: DropShadow {
-            horizontalOffset: 0
-            verticalOffset: 0
-            radius: 2
-            samples: 5
-            color: "#50000000"
+        appLogoLayer.effect: ElevationEffect {
+            elevation: 12
         }
         appName: qsTr("XApps Controls Demo")
         appVersion: ApplicationSettingsObj.version
@@ -65,12 +61,8 @@ XTitledPage {
                             sourceSize.width: 38
                             sourceSize.height: 38
                             layer.enabled: page.Material.theme === Material.Light
-                            layer.effect: DropShadow {
-                                horizontalOffset: 0
-                                verticalOffset: 0
-                                radius: 2
-                                samples: 5
-                                color: "#50000000"
+                            layer.effect: ElevationEffect {
+                                elevation: 12
                             }
                         }
                     }

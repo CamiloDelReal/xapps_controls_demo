@@ -1,8 +1,8 @@
-import QtQuick 2.14
-import QtQuick.Controls 2.14
-import QtQuick.Controls.impl 2.14
-import QtQuick.Controls.Material 2.14
-import QtQuick.Layouts 1.14
+import QtQuick
+import QtQuick.Controls
+import QtQuick.Controls.impl
+import QtQuick.Controls.Material
+import QtQuick.Layouts
 
 import "qrc:/qml"
 import "qrc:/qml/custom"
@@ -10,7 +10,7 @@ import "qrc:/qml/custom"
 XParallaxPage {
     id: page
 
-    statusBarHeight: ApplicationManagerObj.systemStatusBarSize
+    statusbarHeight: ApplicationManagerObj.systemStatusBarSize
 
     primaryAction: XAction {
         text: qsTr("Open global drawer")

@@ -1,9 +1,9 @@
-import QtQuick 2.14
-import QtQuick.Controls 2.14
-import QtQuick.Controls.impl 2.14
-import QtQuick.Controls.Material 2.14
-import QtGraphicalEffects 1.14
-import QtQuick.Layouts 1.14
+import QtQuick
+import QtQuick.Controls
+import QtQuick.Controls.impl
+import QtQuick.Controls.Material
+import QtQuick.Controls.Material.impl
+import QtQuick.Layouts
 
 import "qrc:/qml"
 import "qrc:/qml/custom"
@@ -13,7 +13,7 @@ XTitledPage {
 
     Material.theme: Material.Light
 
-    statusbar.height: ApplicationManagerObj.systemStatusBarSize
+    statusbarHeight: ApplicationManagerObj.systemStatusBarSize
 
     titlebar.primaryAction: XAction {
         text: qsTr("Open global drawer")
@@ -29,12 +29,8 @@ XTitledPage {
     Material.primary: page.Material.background
     toolbar.backgroundCtrl.radius: 10
     toolbar.backgroundCtrl.layer.enabled: true
-    toolbar.backgroundCtrl.layer.effect: DropShadow {
-        horizontalOffset: 0
-        verticalOffset: 0
-        radius: 8
-        samples: 17
-        color: "#50000000"
+    toolbar.backgroundCtrl.layer.effect: ElevationEffect {
+        elevation: 8
     }
 
     scrollingBehavior.type: XScrollingBehavior.ScrollType.PullBack
