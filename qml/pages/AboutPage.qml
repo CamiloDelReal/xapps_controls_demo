@@ -43,7 +43,7 @@ XTitledPage {
                 title: qsTr("Libraries")
                 actions: [
                     XAction {
-                        text: qsTr("Qt Framework 5.12.2 OpenSource")
+                        text: qsTr("Qt Framework OpenSource")
                         tooltip: qsTr("https://www.qt.io")
                         onTriggered: Qt.openUrlExternally("https://www.qt.io")
                         secondaryItem: Image {
@@ -54,8 +54,8 @@ XTitledPage {
                     },
                     XAction {
                         text: qsTr("X Material Controls")
-                        tooltip: "URL"
-                        onTriggered: console.log("Open XApps Material Controls URL")
+                        tooltip: "https://github.com/CamiloDelReal/x_material_controls"
+                        onTriggered: Qt.openUrlExternally("https://github.com/CamiloDelReal/x_material_controls")
                         secondaryItem: Image {
                             source: "qrc:/img/app/logo.svg"
                             sourceSize.width: 38

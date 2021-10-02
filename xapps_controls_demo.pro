@@ -33,12 +33,12 @@ INCLUDEPATH += \
 
 
 #************  Resources  *************************************************************************
-#RESOURCES += \
-#    $$PWD/resources.qrc
+RESOURCES += \
+    $$PWD/resources.qrc
 
 
 #************  Images Files  **********************************************************************
-RESOURCES += \
+DISTFILES += \
     $$PWD/img/app/icon_launcher.svg \
     $$PWD/img/app/logo.svg \
     $$PWD/img/app/logo_foreground.svg \
@@ -151,7 +151,7 @@ RESOURCES += \
 
 
 #************  QML Files  *************************************************************************
-RESOURCES += \
+DISTFILES += \
     $$PWD/qml/Main.qml \
     $$PWD/qml/pages/SplashPage.qml \
     $$PWD/qml/pages/OnBoardingPage.qml \
@@ -210,7 +210,6 @@ RESOURCES += \
 
 ##************  Android Configurations  ************************************************************
 android {
-    QT += androidextras
     DISTFILES += \
         $$PWD/android/AndroidManifest.xml \
         $$PWD/android/gradle/wrapper/gradle-wrapper.jar \
@@ -219,7 +218,7 @@ android {
         $$PWD/android/gradlew.bat \
         $$PWD/android/build.gradle \
         $$PWD/android/res/values/libs.xml \
-        $$PWD/android/res/drawable/splash.xml \
+        $$PWD/android/res/drawable/splashscreen.xml \
         $$PWD/android/res/mipmap-ldpi/icon_launcher.png \
         $$PWD/android/res/mipmap-mdpi/icon_launcher.png \
         $$PWD/android/res/mipmap-hdpi/icon_launcher.png \
