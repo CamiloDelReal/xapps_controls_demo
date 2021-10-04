@@ -23,10 +23,11 @@ Simple app demo to show X Material Controls
 <img src="https://github.com/CamiloDelReal/xapps_controls_demo/blob/develop/screenshots/sshot-7.png" width="30%" height="30%" />
 
 ### Pages
+<p float="left">
 <img src="https://github.com/CamiloDelReal/xapps_controls_demo/blob/develop/screenshots/sshot-8.png" width="30%" height="30%" />
 <img src="https://github.com/CamiloDelReal/xapps_controls_demo/blob/develop/screenshots/sshot-9.png" width="30%" height="30%" />
 <img src="https://github.com/CamiloDelReal/xapps_controls_demo/blob/develop/screenshots/sshot-10.png" width="30%" height="30%" />
 <img src="https://github.com/CamiloDelReal/xapps_controls_demo/blob/develop/screenshots/sshot-11.png" width="30%" height="30%" />
 <img src="https://github.com/CamiloDelReal/xapps_controls_demo/blob/develop/screenshots/sshot-12.png" width="30%" height="30%" />
 <img src="https://github.com/CamiloDelReal/xapps_controls_demo/blob/develop/screenshots/sshot-13.png" width="30%" height="30%" />
-	
+</p>
