@@ -31,3 +31,10 @@ Simple app demo to show X Material Controls
 <img src="https://github.com/CamiloDelReal/xapps_controls_demo/blob/develop/screenshots/sshot-12.png" width="30%" height="30%" />
 <img src="https://github.com/CamiloDelReal/xapps_controls_demo/blob/develop/screenshots/sshot-13.png" width="30%" height="30%" />
 </p>
+
+### Apps Like
+<p float="left">
+<img src="https://github.com/CamiloDelReal/xapps_controls_demo/blob/develop/screenshots/sshot-14.png" width="30%" height="30%" />
+<img src="https://github.com/CamiloDelReal/xapps_controls_demo/blob/develop/screenshots/sshot-15.png" width="30%" height="30%" />
+<img src="https://github.com/CamiloDelReal/xapps_controls_demo/blob/develop/screenshots/sshot-16.png" width="30%" height="30%" />
+</p>
