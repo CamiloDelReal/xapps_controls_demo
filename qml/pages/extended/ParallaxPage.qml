@@ -33,7 +33,7 @@ XParallaxPage {
         }
     ]
 
-    floatingTitle: qsTr("Parallax Page copying Google Material Design")
+    floatingTitle: qsTr("Parallax Page")
     floatingSubtitle: qsTr("Subtitle")
     parallaxItem: Image {
         fillMode: Image.PreserveAspectCrop
