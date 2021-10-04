@@ -1,5 +1,6 @@
 # X Material Controls Demo
 Simple app demo to show X Material Controls
+Here some screenshots, but there are more, just compile the app because I didn't want to make gif's to Scrolling Behavior examples :)
 
 ### Label
 <img src="https://github.com/CamiloDelReal/xapps_controls_demo/blob/develop/screenshots/sshot-1.png" width="30%" height="30%" />
