@@ -1,5 +1,5 @@
 # X Material Controls Demo
-Simple app demo to show X Material Controls.<br/>
+Simple app demo to show [X Material Controls](https://github.com/CamiloDelReal/x_material_controls)<br/>
 Here some screenshots, but there are more, just compile the app because I didn't want to make gif's to Scrolling Behavior examples :)
 
 ### Label
