@@ -2,6 +2,9 @@
 Simple app demo to show [X Material Controls](https://github.com/CamiloDelReal/x_material_controls)<br/>
 Here some screenshots, but there are more, just compile the app because I didn't want to make gif's to Scrolling Behavior examples :)
 
+## This project will not be maintenance anymore
+I am not working for Qt since a while and updates started to become hard after so much changes in Qt 6
+
 ### Label
 <img src="https://github.com/CamiloDelReal/xapps_controls_demo/blob/develop/screenshots/sshot-1.png" width="30%" height="30%" />
 
